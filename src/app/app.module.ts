@@ -8,10 +8,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Components
 import { AppComponent } from './app.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [  //Components
     AppComponent, 
+    HeroesComponent, 
   ],
 
   imports: [  //Modules

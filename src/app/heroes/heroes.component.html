@@ -1,0 +1,25 @@
+<div class="container">
+    - 문자열 변수 바인딩
+    <h2>{{hero_name}}</h2>
+    <br>
+
+    - 객체의 속성들 바인딩 (객체.속성)
+    <h2>{{hero.name | uppercase}}
+        Details</h2>
+    <div>
+        <span>id:
+        </span>{{hero.id}}</div>
+    <div>
+        <span>name: </span>{{hero.name}}
+    </div>
+    <br>
+
+    - 양방향 바인딩 ([(ngModel)])
+    <div>
+        <label for="name">Hero name:
+        </label>
+        <input id="name" [(ngModel)]="hero.name" placeholder="name">
+        <br><small>※위의 hero.name값들이 변한다.</small>
+    </div>
+
+</div>
